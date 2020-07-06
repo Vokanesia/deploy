@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/u7249709/public_html/dest1
-    - /bin/cp testing.txt $DEPLOYPATH
+    - /bin/rsync testing.txt $DEPLOYPATH
